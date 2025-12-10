@@ -22,8 +22,8 @@ public class MyServlet extends HttpServlet {
 		out.println("<body>");
 		out.println("<h1>Ejemplo Servlet</h1>");
 		out.println("<p>Nombre: </p>");
-		out.println("<form action=\"/myServlet2\" method=\"GET\">");
-		out.println("<input type=\"text\" name=\"lname\" value=\"César\"/>");
+		out.println("<form action=\"/ejemplos-servlet/myServlet2\" method=\"GET\">");
+		out.println("<input type=\"text\" name=\"lname\" value=\"Elio\"/>");
 		out.println("<button type=\"submit\">Enviar</button>");
 		out.println("</form>");
 		out.println("</body></html>");
